@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "763332908366",
+    "firebase_url": "https://deliverme-project.firebaseio.com",
+    "project_id": "deliverme-project",
+    "storage_bucket": "deliverme-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763332908366:android:c1eb84a6e77f197fdcba1f",
+        "android_client_info": {
+          "package_name": "sunspark.org.deliverme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763332908366-ge9a917ufbkcehf4la1kq1go36j679dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunspark.org.deliverme",
+            "certificate_hash": "ef2a7d1de6dc87034bac21b9f94d3e15b0a04f9e"
+          }
+        },
+        {
+          "client_id": "763332908366-kv853pk7tjj5ui0fp90t8nepme7iqdf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXe9FSZwB3rU9eoGADoyp72u15nkb644"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763332908366-kv853pk7tjj5ui0fp90t8nepme7iqdf6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "763332908366-u8co5ig5unghme7r62ekrserljkrkaa3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "minago.DeliverMe"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
