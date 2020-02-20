@@ -54,8 +54,8 @@
         android:layout_width="300px"
         android:layout_height="300px"
         android:id="@+id/datePicker3"
-        android:layout_marginStart="10dp"
+        android:layout_marginTop="61dp"
         android:layout_below="@+id/lastName"
-        android:layout_marginTop="49dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
