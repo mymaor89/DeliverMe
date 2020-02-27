@@ -1,8 +1,11 @@
 package sunspark.org.deliverme;
 
+import android.app.Notification;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 
 import com.google.firebase.database.DatabaseReference;
@@ -18,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
         DatabaseReference myRef = database.getReference("message");
         myRef.setValue("Hi, World!");
 
+        Intent resultIntent = new Intent(this,R.layout.class);
+        PendingIntent resultPendingIntent =
+                PendingIntent.getActivity(
+                        this,
+                        0,
+                        resultIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
     }
 }
