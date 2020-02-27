@@ -33,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/image"
         android:gravity="right"
-        android:hint="שם פרטי" />
+        android:hint="שם פרטי"
+        />
 
     <EditText
         android:id="@+id/lastName"
@@ -41,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/firstName"
         android:gravity="right"
-        android:hint="שם משפחה">
+        android:hint="שם משפחה"
+        >
 
 
         <requestFocus />
