@@ -15,14 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Deliverers_Screen"></activity>
-        <activity android:name=".Requests_page"></activity>
-        <activity android:name=".PhoneNum_activity"></activity>
+        <activity android:name=".Deliverers_Screen" />
+        <activity android:name=".Requests_page" />
+        <activity android:name=".PhoneNum_activity" />
         <activity
             android:name=".SignUpUserActivity"
             android:label="@string/title_activity_profile"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AlertDialogActivity"></activity>
     </application>
 
 </manifest>
